@@ -12,4 +12,3 @@ namespace :db do
     # loads our sinatra app to configure opening the database
   end 
 end
-
