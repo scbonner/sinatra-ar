@@ -1,0 +1,19 @@
+<ul>
+    <% @users.each do |list| %>
+    <li> <% list.id.to_s + " " + list.name + " " + list.email %></li>
+    <% end %>
+</ul>
+
+
+
+
+
+
+
+<!--Create user_list.erb, which displays -->
+<!--a list of users and their emails.  It should also have -->
+<!--links for /new and /delete.  Create user_delete.erb, which -->
+<!--is a form with an entry field for the name and a submit button -->
+<!--labeled delete, and which uses the delete method for path ‘/delete.  -->
+<!--You will need to add this line to app.rb after the other entries, -->
+<!--but before any of the code for your routes:-->

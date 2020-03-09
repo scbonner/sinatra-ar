@@ -1,8 +1,9 @@
-<form action="/users" class="new_user" id="new_user" method="post">
-    <label for="user_name">Name</label>
-    <input id="user_name" name="user[name]" type="text" />
-    <label for="email">Email</label>
-    <input id="email" email="user[email]" type="text" />
+<form action="/create" method="post">
+    <p>Name of user to create</p>
+    <input type="text" name="name">
+    <p>Email address</p>
+    <input type="text" name="email">
+    <input type="submit" value="add">
 </form>
 
 
